@@ -1,0 +1,151 @@
+nombre,edad,ciudad,pais,monto_credito,credito_disponible,ultima_fecha_pago
+Sofía_0,38,valparaíso,Chille,5015150.28,5015150.28,
+María_1,39,Rancagua,Chile,,5330963.36,
+Luis_2,44,iquique,Chile,,2657741.97,2025-04-21
+Juan_3,42,Rancagua,chile,,1525124.12,2025-04-02
+Sofía_4,54,Concepción,Chile,,4523021.33,
+Juan_5,37,Rancagua,Chilé,,8940873.82,
+María_6,73,santiago,Chile,,556271.11,
+María_7,57,la serena,Chille,,871706.62,
+Pedro_8,68,rancagua,chile,6168640.86,6168640.86,
+Jorge_9,42,Concepción,chile,9528577.47,9528577.47,2024-07-27
+Sofía_10,19,La Serena,Chile,,1809892.35,2024-11-11
+María_11,32,Iquique,chile,,2872077.25,
+Luis_12,27,Concepción,Chilé,6357277.59,6357277.59,
+María_13,67,Puerto Montt,chile,,2030037.51,2025-03-18
+Pedro_14,21,valparaíso,Chille,,4818988.79,2025-02-11
+Sofía_15,71,rancagua,chile,,1756412.83,2025-04-05
+Ana_16,57,valparaíso,Chilé,,5424031.03,
+Sofía_17,40,temuco,Chille,,1224966.58,
+Jorge_18,37,la serena,Chille,8738659.85,8738659.85,2024-10-08
+Sofía_19,20,la serena,Chile,1090379.51,1090379.51,
+Sofía_20,45,puerto montt,Chille,,5035928.5,2024-08-22
+Jorge_21,31,Rancagua,CHILE,,6466020.32,2024-12-23
+Camila_22,71,concepción,Chille,,1103295.08,
+María_23,23,Rancagua,Chile,1297931.46,1297931.46,
+Sofía_24,34,temuco,Chille,,5506662.35,2025-03-22
+Camila_25,64,Puerto Montt,Chile,718551.51,718551.51,
+María_26,21,rancagua,CHILE,,6861395.05,
+Luis_27,52,Copiapó,Chilé,7652015.97,7652015.97,2025-05-08
+Camila_28,62,Puerto Montt,CHILE,4841038.41,4841038.41,
+Pedro_29,38,Iquique,Chilé,340531.57,340531.57,
+Carlos_30,42,valparaíso,chile,,4994783.38,2025-03-14
+María_31,67,La Serena,Chille,,661450.4,
+Carlos_32,34,valparaíso,Chilé,,8732808.41,2025-04-23
+Ana_33,48,valparaíso,Chilé,,794139.46,
+Jorge_34,75,iquique,Chilé,,7893335.26,2024-08-15
+Ana_35,74,Iquique,CHILE,,576365.66,
+Juan_36,38,temuco,Chille,3474064.25,3474064.25,2025-02-14
+Pedro_37,54,valparaíso,Chilé,,7218605.31,2025-05-07
+Juan_38,50,Puerto Montt,Chilé,,6336282.89,
+Jorge_39,61,Copiapó,CHILE,,6046497.3,
+Carlos_40,36,Copiapó,chile,,1313315.42,2024-11-09
+María_41,70,Puerto Montt,Chille,,7114957.87,2025-02-26
+Juan_42,21,Puerto Montt,Chille,3806804.0,3806804.0,
+Luis_43,44,Santiago,chile,,639053.94,
+Jorge_44,48,la serena,CHILE,,1511363.91,
+Carlos_45,72,Antofagasta,chile,,1192188.4,
+Sofía_46,40,Temuco,Chilé,,7292116.59,
+Camila_47,75,Iquique,Chille,,8376373.11,
+Ana_48,34,Antofagasta,CHILE,1858407.99,1858407.99,
+Luis_49,37,copiapó,Chilé,3264478.82,3264478.82,
+Juan_50,22,Valparaíso,Chile,,3622199.09,
+Jorge_51,23,puerto montt,CHILE,,8369633.29,
+Pedro_52,72,Valparaíso,chile,,1265609.26,2024-11-10
+Fernanda_53,73,Concepción,Chilé,3779080.24,3779080.24,
+Ana_54,41,La Serena,Chilé,,2690859.35,2024-07-08
+Sofía_55,73,rancagua,chile,,813204.25,
+Luis_56,70,concepción,chile,5778177.3,5778177.3,2025-03-04
+Camila_57,41,copiapó,Chile,,7251946.06,
+Carlos_58,72,santiago,CHILE,,8059753.03,
+Jorge_59,64,Rancagua,CHILE,,6357920.82,
+Fernanda_60,49,Valparaíso,CHILE,,7811496.79,
+María_61,71,Concepción,Chile,,5911547.96,
+Pedro_62,75,temuco,Chile,,8879866.66,2025-01-31
+Luis_63,60,concepción,chile,6896631.94,6896631.94,
+Jorge_64,22,Puerto Montt,chile,,194060.72,
+María_65,25,Valparaíso,CHILE,,129496.21,2025-01-23
+Ana_66,20,Puerto Montt,Chilé,,8518337.93,
+Luis_67,43,valparaíso,Chile,1557259.56,1557259.56,2025-04-29
+Camila_68,66,Santiago,Chille,,3574174.04,
+Fernanda_69,28,Valparaíso,Chille,,1088279.9,2024-06-10
+Pedro_70,47,antofagasta,chile,,5322113.73,
+Jorge_71,56,Concepción,Chilé,,6333083.95,
+Pedro_72,67,puerto montt,chile,,408203.84,2025-02-21
+Sofía_73,66,antofagasta,chile,,1478425.37,2025-04-02
+Pedro_74,46,La Serena,Chille,,6042476.45,
+Carlos_75,42,La Serena,chile,,8203814.62,2025-02-14
+Juan_76,70,Santiago,Chille,2125663.23,2125663.23,
+Fernanda_77,75,puerto montt,CHILE,7187092.44,7187092.44,
+Pedro_78,42,rancagua,CHILE,,7595677.06,2025-04-06
+Sofía_79,22,Antofagasta,Chille,,6523805.12,2024-08-05
+Pedro_80,61,La Serena,CHILE,,6552569.06,
+Sofía_81,61,iquique,Chille,,8099342.0,2025-01-05
+Carlos_82,53,Temuco,CHILE,,339601.93,
+Fernanda_83,74,antofagasta,Chille,1110385.43,1110385.43,
+Camila_84,75,Concepción,CHILE,4915063.9,4915063.9,2024-10-14
+Juan_85,46,rancagua,Chile,,8676005.68,
+Carlos_86,46,antofagasta,chile,,5939965.77,
+Luis_87,72,Valparaíso,Chille,,8103119.84,
+Juan_88,53,puerto montt,chile,7409416.62,7409416.62,
+Jorge_89,25,Concepción,CHILE,,3147333.98,
+Ana_90,24,copiapó,CHILE,5637836.23,5637836.23,2024-11-03
+Ana_91,70,concepción,Chilé,,5249729.19,2024-08-28
+Camila_92,45,antofagasta,Chilé,4139772.22,4139772.22,
+Luis_93,65,puerto montt,Chille,,8626408.88,
+Sofía_94,37,Rancagua,Chilé,,6001241.26,
+Sofía_95,58,Iquique,Chilé,4904372.04,4904372.04,2024-12-15
+Ana_96,61,la serena,Chille,,6053564.79,
+Jorge_97,69,Valparaíso,Chille,4961691.75,4961691.75,
+Luis_98,31,Copiapó,CHILE,,8554511.5,
+María_99,66,puerto montt,chile,6108598.37,6108598.37,2025-02-16
+Jorge_100,68,Concepción,CHILE,,3750266.93,
+Juan_101,50,rancagua,Chille,,3951302.33,2024-10-23
+Ana_102,36,Antofagasta,Chilé,,6359182.92,2024-10-04
+Carlos_103,33,Antofagasta,Chile,2559765.27,2559765.27,2024-06-12
+Ana_104,25,santiago,CHILE,,5467494.61,
+Sofía_105,28,Puerto Montt,Chile,,3083691.75,
+Carlos_106,42,temuco,CHILE,,3467327.27,
+Camila_107,26,valparaíso,CHILE,,2419859.75,
+Luis_108,74,temuco,Chilé,6914786.79,6914786.79,2024-12-19
+Pedro_109,32,rancagua,Chilé,,4822211.01,2024-12-22
+Camila_110,55,rancagua,Chille,,5570287.3,2024-07-07
+Juan_111,48,iquique,Chilé,,2098763.62,2024-07-08
+Luis_112,18,Concepción,CHILE,,5600759.51,
+Fernanda_113,23,Rancagua,Chile,,743496.67,
+Camila_114,52,Concepción,Chilé,4694903.78,4694903.78,
+Luis_115,57,antofagasta,Chille,7057716.69,7057716.69,
+Fernanda_116,58,Rancagua,chile,,4781877.06,
+Pedro_117,67,valparaíso,Chilé,,4459250.39,2024-08-31
+Juan_118,36,Temuco,Chille,,4607754.31,
+Fernanda_119,49,concepción,Chilé,,5586980.08,
+Ana_120,48,Copiapó,chile,,846800.4,2024-12-09
+Jorge_121,20,Rancagua,Chille,,4119451.41,
+Sofía_122,45,Antofagasta,Chile,,7204076.83,2025-04-25
+Sofía_123,39,rancagua,Chille,4121545.96,4121545.96,
+Jorge_124,35,rancagua,Chille,,6081510.26,
+Sofía_125,71,Rancagua,Chilé,424779.91,424779.91,2024-11-18
+Ana_126,39,antofagasta,CHILE,,1257089.3,
+Fernanda_127,33,La Serena,Chilé,9998990.22,9998990.22,
+Pedro_128,49,Rancagua,chile,3708569.64,3708569.64,2025-02-23
+María_129,60,rancagua,chile,,3223427.73,2024-11-02
+Camila_130,20,santiago,Chile,6639305.49,6639305.49,
+Sofía_131,58,Puerto Montt,CHILE,,7901010.89,2024-10-16
+Sofía_132,62,Antofagasta,Chilé,,5585160.91,
+Luis_133,49,Temuco,Chille,,603309.95,2024-10-18
+Fernanda_134,36,iquique,Chille,8819371.16,8819371.16,
+Ana_135,54,Temuco,Chile,5583563.99,5583563.99,
+Ana_136,72,Copiapó,Chile,,8577944.66,
+Luis_137,64,puerto montt,Chilé,,6060844.0,
+Carlos_138,55,antofagasta,chile,,4950222.75,2024-11-04
+Ana_139,34,Valparaíso,Chilé,,2990321.31,2024-12-23
+Fernanda_140,29,la serena,Chille,4420607.5,4420607.5,
+Jorge_141,37,puerto montt,Chile,8914964.91,8914964.91,
+Jorge_142,25,Antofagasta,Chilé,1038396.32,1038396.32,2025-04-13
+Carlos_143,44,Valparaíso,chile,,8287367.71,
+Sofía_144,42,Antofagasta,Chilé,,413320.59,2025-05-14
+Luis_145,32,valparaíso,Chille,,7230014.64,
+María_146,57,Puerto Montt,Chille,2020541.19,2020541.19,
+Camila_147,47,Puerto Montt,Chilé,1951532.43,1951532.43,2024-08-09
+Sofía_148,66,Temuco,Chilé,,3593065.4,2025-03-25
+Camila_149,42,la serena,Chile,,6588547.93,
