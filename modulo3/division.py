@@ -1,3 +1,5 @@
+#!/bin/python3
+
 print("=======================")
 print("Division de dos numeros")
 print("=======================")

@@ -1,3 +1,5 @@
+#!/bin/python3
+
 print("=======================")
 print("Resta de dos numeros")
 print("=======================")
