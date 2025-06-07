@@ -1,5 +1,3 @@
-#!/bin/python3
-
 print("=======================")
 print("Suma de dos numeros")
 print("=======================")

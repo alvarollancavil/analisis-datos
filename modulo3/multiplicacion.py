@@ -1,5 +1,3 @@
-#!/bin/python3
-
 print("=======================")
 print("Multiplicación de dos numeros")
 print("=======================")
