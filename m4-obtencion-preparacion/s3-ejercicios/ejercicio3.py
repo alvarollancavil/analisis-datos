@@ -42,8 +42,31 @@ print(df.head(5))
 # Ejercicio 3-5
 print("="*80 + "\n Ejercicio 3-5 \n" + "="*80)
 df=df.drop(df[np.isnat(df.FECHA)].index)
+df=df.sort_values(by=['ESTACION','MAGNITUD','FECHA'])
 
 print(df.info())
+print(df.head(5))
 
 # Ejercicio 3-6
 print("="*80 + "\n Ejercicio 3-6 \n" + "="*80)
+estacionesList=df['ESTACION'].unique()
+contaminantesList=df['MAGNITUD'].unique()
+
+print(f"Estaciones disponibles:\n{estacionesList}")
+print(f"Contaminantes (Magnitud) disponibles:\n{contaminantesList}")
+
+# Ejercicio 3-7
+print("="*80 + "\n Ejercicio 3-7 \n" + "="*80)
+
+def contaminantePorEstacionFecha(contaminante,estacion,fechaInicial,fechaFinal):
+    inicio=pd.to_datetime(fechaInicial)
+    fin=pd.to_datetime(fechaFinal)
+    df_filt=df[(df['MAGNITUD']==contaminante) & (df['ESTACION']==estacion) & (df['FECHA']>=inicio) & (df['FECHA']<=fin)]
+    return df_filt['VALOR'].to_list()
+
+contaminante=12
+estacion=18
+fechaInicial='2016-02-01'
+fechaFinal='2016-02-28'
+print(f"contaminante: {contaminante}\nestacion: {estacion}\nfechaInicial: {fechaInicial}\nfechaFinal: {fechaFinal}")
+print(contaminantePorEstacionFecha(contaminante,estacion,fechaInicial,fechaFinal))
