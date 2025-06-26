@@ -15,7 +15,7 @@ print(df.info())
 # Ejercicio 3-2 
 print("="*80 + "\n Ejercicio 3-2 \n" + "="*80)
 df=df[[
-    'ESTACION','MAGNITUD','ANO','MES',
+    'PROVINCIA','ESTACION','MAGNITUD','ANO','MES',
     'D01','D02','D03','D04','D05','D06','D07','D08','D09','D10',
     'D11','D12','D13','D14','D15','D16','D17','D18','D19','D20',
     'D21','D22','D23','D24','D25','D26','D27','D28','D29','D30','D31'
@@ -25,7 +25,7 @@ print(df.info())
 
 # Ejercicio 3-3
 print("="*80 + "\n Ejercicio 3-3 \n" + "="*80)
-df = df.melt(id_vars=['ESTACION', 'MAGNITUD', 'ANO', 'MES'], var_name='DIA', value_name='VALOR')
+df = df.melt(id_vars=['PROVINCIA','ESTACION', 'MAGNITUD', 'ANO', 'MES'], var_name='DIA', value_name='VALOR')
 
 print(df.info())
 print(df.head(5))
@@ -70,3 +70,34 @@ fechaInicial='2016-02-01'
 fechaFinal='2016-02-28'
 print(f"contaminante: {contaminante}\nestacion: {estacion}\nfechaInicial: {fechaInicial}\nfechaFinal: {fechaFinal}")
 print(contaminantePorEstacionFecha(contaminante,estacion,fechaInicial,fechaFinal))
+
+# Ejercicio 3-8
+print("="*80 + "\n Ejercicio 3-8 \n" + "="*80)
+for contaminante in contaminantesList:
+    print(f"\nResumen descriptivo para valores de contaminante: {contaminante}\n")
+    print(df[df['MAGNITUD'] == contaminante]['VALOR'].describe())
+
+# Ejercicio 3-9
+print("="*80 + "\n Ejercicio 3-9 \n" + "="*80)
+print(f"Provincias (Distritos) disponibles:\n{df['PROVINCIA'].unique()}")
+# igual al 3-8
+
+# Ejercicio 3-10
+print("="*80 + "\n Ejercicio 3-10 \n" + "="*80)
+def resumenDescriptivo(estacion, contaminante):
+    return df[(df.ESTACION == estacion) & (df.MAGNITUD == contaminante)].VALOR.describe()
+
+estacion=4
+contaminante=6
+print(f"Resumen descriptivo para estación {estacion} y contaminante {contaminante}:\n{resumenDescriptivo(estacion, contaminante)}")
+estacion=60
+contaminante=14
+print(f"Resumen descriptivo para estación {estacion} y contaminante {contaminante}:\n{resumenDescriptivo(estacion, contaminante)}")
+
+# Ejercicio 3-11
+print("="*80 + "\n Ejercicio 3-11 \n" + "="*80)
+def evolucion_mensual(contaminante, año):
+    return df[(df.MAGNITUD == contaminante) & (df.ANO == año)].groupby(['ESTACION', 'MES']).VALOR.mean().unstack('MES')
+
+# Evolución del dióxido de nitrógeno en 2019
+print(evolucion_mensual(8, 2019))
